@@ -40,6 +40,7 @@ public class BankAccount {
             }
             else {
                 stringBuilder.append((char)('0'+sum));
+                sum=0;
             }
         }
         return stringBuilder.toString();
